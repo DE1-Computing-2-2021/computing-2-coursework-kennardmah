@@ -16,14 +16,6 @@ Handler.get_tasks = function (request_object) {
     });
 };
 
-// Handler.delete_tasks = function(request_object) {
-//     console.log(request_object);
-//     Tasks_list = Tasks_list.filter( r => r !== request_object.name)
-//     return Promise.resolve({
-//         "task":Tasks_list
-//     })
-// }
-
 // const months = [
 //     "January", "February", "March", "April",
 //     "May", "June", "July", "August", "September",

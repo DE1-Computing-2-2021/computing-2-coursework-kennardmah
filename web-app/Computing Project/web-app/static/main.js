@@ -8,7 +8,8 @@ const taskInput = document.querySelector(".todolist .task-input");
 const taskButton = document.querySelector(".todolist .task-button");
 const taskList = document.querySelector(".todolist .task-list");
 const saveButton = document.querySelector(".save-button");
-const date = new Date(); // get the current date
+// get the current date
+const date = new Date();
 var completedTasks = 0;
 
 // EVENT LISTENERS
@@ -25,7 +26,7 @@ function init(){
 }
 
 // create empty list to store tasks
-let task_list = [];
+var task_list = [];
 
 // when save button is pressed, load the list of tasks to Ajax
 function save(k){
@@ -39,7 +40,7 @@ function load_task(){
     Ajax.query({"type":"get_task", "list": task_list}).then(function(response){
         console.log(response);
         task_list = task.list;
-        task_list.forEach((tasknumber) => {
+        task_list.forEach((tasknumber) = function () {
             addTask(tasknumber); // for each tasks, run the addTask function
         });
     });

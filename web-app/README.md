@@ -35,7 +35,7 @@ There is the main javascript file, "main.js", that calls from other files such a
 
 ## Debugging
 
-I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply. When coming to the testing, I attempted to create a unit test and covert it to a property test for "Calendar.test.js" and "Tasks.test.js", however, due to a failed Mocha, I was unable to run and confirm this part.
+I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint, firefoxdebug and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply. When coming to the testing, I attempted to create a unit test and covert it to a property test for "Calendar.test.js" and "Tasks.test.js", however, due to a failed Mocha, I was unable to run and confirm this part.
 
 ## Best Practice
 

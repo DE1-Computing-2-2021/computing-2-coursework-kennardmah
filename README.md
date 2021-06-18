@@ -31,11 +31,11 @@ Through editing the "default.css" file, I aimed to make a template that looks pr
 
 ## Data
 
-There is the main javascript file, "main.js", that calls from other files such as "calendar.js" and "tasks.js" to retrieve functions. The constant values and variables are defined in the main function. Furthermore, there is a CSS file labeled "default.css" that determines the layout and user interface of the web app. When attempting to store values, the Handler file saves the task lists and returns the list when refreshing the page.
+There is the main javascript file, "main.js", that calls from other files such as "calendar.js" and "tasks.js" to retrieve functions. The constant values and variables are defined in the main function. Furthermore, there is a CSS file labeled "default.css" that determines the layout and user interface of the web app. When attempting to store values, the Handler file saves the task lists and returns the list when refreshing the page. However, this part of the function failed when being processed through handler.js, and I was unable to fix this issue.
 
 ## Debugging
 
-I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply.
+I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply. When coming to the testing, I attempted to create a unit test and covert it to a property test for "Calendar.test.js" and "Tasks.test.js", however, due to a failed Mocha, I was unable to run and confirm this part.
 
 ## Best Practice
 

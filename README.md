@@ -30,12 +30,13 @@ I began with designing the HTML file and CSS file before beginning the coding. T
 Through editing the "default.css" file, I aimed to make a template that looks professional with its choice of color, font, and layout. The user interface was also designed to be easy to navigate around through some of the symbols used (i.e. arrows, trash button, check button, save button, and add button). I attempted to make the program more interactive with the user by giving properties to the tasks in the "deadlines" section and making the calendar interactive; however, aspects of the handler failed when first attempting to store the state of the month and store "deadlines."
 
 ## Data
-*Explain how you structure and process your data.*
+
 There is the main javascript file, "main.js", that calls from other files such as "calendar.js" and "tasks.js" to retrieve functions. The constant values and variables are defined in the main function. Furthermore, there is a CSS file labeled "default.css" that determines the layout and user interface of the web app. When attempting to store values, the Handler file saves the task lists and returns the list when refreshing the page.
 
 ## Debugging
-*Describe how you used debugging practices and tools and how they helped you overcome a bug or conceptual issue.*
+
 I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply.
 
 ## Best Practice
-*Outline your use of software development best practices*
+
+The files are separated with javascript, HTML, and CSS, with limited interactions between the files. JSLint was also used to decrease the error to little to none throughout the coding process with the only error being the use of a for loop that was difficult to find a replacement for. The program is commented throughout to explain the process, and variable names and constant names are chosen to make the coding easier to understand and use when designing the web app.

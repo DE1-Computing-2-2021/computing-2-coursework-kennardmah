@@ -23,7 +23,7 @@ The second portion of the web app is a task list labeled as "deadlines." This wa
 
 ## Coding
 
-I began with designing the HTML file and CSS file before beginning the coding. Throughout the coding process, I navigated between the javascript files and web-app page using a split screen to avoid errors. My initial approach was making a web app with a minor user interface that functioned as desired. Once the calendar was designed, I revised the HTML and CSS file again to include a task list that will improve the user-interface aspect of the web app. Throughout the coding process, I used commenting and separate javascript files to organize my codes so that it was easier to access when desired. Finally, I create tests to ensure that the code will function with arbitrary user interactions.
+I began with designing the HTML file and CSS file before beginning the coding. Throughout the coding process, I navigated between the javascript files and web-app page using a split screen to avoid errors. My initial approach was making a web app with a minor user interface that functioned as desired. Once the calendar was designed, I revised the HTML and CSS file again to include a task list that will improve the user-interface aspect of the web app. Throughout the coding process, I used commenting and separate javascript files to organize my codes so that it was easier to access when desired. Finally, I create tests to ensure that the code will function with arbitrary user interactions. 
 
 ## UX/UI
 
@@ -31,13 +31,12 @@ Through editing the "default.css" file, I aimed to make a template that looks pr
 
 ## Data
 
-There is the main javascript file, "main.js", that calls from other files such as "calendar.js" and "tasks.js" to retrieve functions. The constant values and variables are defined in the main function. Furthermore, there is a CSS file labeled "default.css" that determines the layout and user interface of the web app. When attempting to store values, the Handler file saves the task lists and returns the list when refreshing the page.
+There is the main javascript file, "main.js", that calls from other files such as "calendar.js" and "tasks.js" to retrieve functions. The constant values and variables are defined in the main function. Furthermore, there is a CSS file labeled "default.css" that determines the layout and user interface of the web app. When attempting to store values, the Handler file saves the task lists and returns the list when refreshing the page. However, this part of the function failed when being processed through handler.js, and I was unable to fix this issue.
 
 ## Debugging
 
-I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply.
+I was able to solve issues via logging values through the console whenever an event listener occured. This enabled me to check if the function is able to process. Furthermore, through JSLint and labeling the processes, I was able to tidy up the javascript and locate portions of the coding simply. When coming to the testing, I attempted to create a unit test and covert it to a property test for "Calendar.test.js" and "Tasks.test.js", however, due to a failed Mocha, I was unable to run and confirm this part.
 
 ## Best Practice
 
 The files are separated with javascript, HTML, and CSS, with limited interactions between the files. JSLint was also used to decrease the error to little to none throughout the coding process with the only error being the use of a for loop that was difficult to find a replacement for. The program is commented throughout to explain the process, and variable names and constant names are chosen to make the coding easier to understand and use when designing the web app.
-

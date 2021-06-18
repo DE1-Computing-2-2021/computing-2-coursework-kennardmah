@@ -11,7 +11,7 @@ html {
 
 .container {
     width: 100%;
-    height: 110vh;
+    height: 130vh;
     background-image: linear-gradient(120deg, #b7dbe4, #0f667c);
     color: rgb(255, 255, 255);
     display: flex;
@@ -21,14 +21,14 @@ html {
 
 .calendar {
     width: 45rem;
-    height: 43.5rem;
+    height: 48.5rem;
     background-color: #27272e;
     box-shadow: 0 0.5rem 3rem rgba(0,0,0,.4);
 }
 
 .month {
     width: 100%;
-    height: 10rem;
+    height: 9.5rem;
     background-color: #0b1141;
     display: flex;
     justify-content: space-between;
@@ -111,11 +111,7 @@ html {
     box-shadow: 0 0.5rem 3rem rgba(0,0,0,.4);
 }
 
-.todolist header {
-    font-size: 1rem;
-}
-
-.todolist header, form {
+.todolist h1, form {
     min-height: 6vh;
     display: flex;
     justify-content: center;

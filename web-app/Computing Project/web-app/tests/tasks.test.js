@@ -10,11 +10,12 @@ describe("count tasks", function () {
     property(
         "the length of the list will increase when tasks are added;" +
         "in this case, 4 times",
-        function (test_list = []) {
-            test_list = Task.addList(test_list, "");
-            test_list = Task.addList(test_list, "");
-            test_list = Task.addList(test_list, "");
-            test_list = Task.addList(test_list, "");
+        [fc.test_string(5, 10)],
+        function (test_list = [], test_string = "") {
+            test_list = Task.addList(test_list, test_string);
+            test_list = Task.addList(test_list, test_string);
+            test_list = Task.addList(test_list, test_string);
+            test_list = Task.addList(test_list, test_string);
             return test_list.length() === 4;
         }
     );
